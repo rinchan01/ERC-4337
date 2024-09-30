@@ -1,0 +1,26 @@
+{
+  "name": "erc-4337",
+  "version": "1.0.0",
+  "description": "ERC-4337 (Account Abstraction)",
+  "main": "5-aa.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy-local": "npx hardhat run scripts/1_deploy_contracts.js --network local"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "@uniswap/v3-periphery": "^1.4.4",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "erc-4337": "file:",
+    "ethers": "^6.13.2",
+    "hardhat": "^2.22.10",
+    "web3": "^1.8.2"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0"
+  }
+}
