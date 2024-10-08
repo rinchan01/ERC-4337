@@ -8,8 +8,6 @@ const simpleAccountFactoryContract = require("../artifacts/contracts/samples/Sim
 
 async function main() {
       const [deployer] = await ethers.getSigners();
-      console.log(deployer);
-
       const EntryPoint = new ethers.ContractFactory(
             entryPointContract.abi,
             entryPointContract.bytecode,
